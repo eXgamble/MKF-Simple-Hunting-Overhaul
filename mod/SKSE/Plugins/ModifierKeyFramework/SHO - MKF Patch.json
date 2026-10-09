@@ -1,0 +1,20 @@
+{
+  // SHO - MKF Patch: hold the Modifier Key Framework key on a dead animal to pick up its carcass
+  // (Simple Hunting Overhaul). Activating normally stays vanilla (Search).
+  // Labels: Interface/Translations/SHO - MKF Patch_<LANGUAGE>.txt
+  "version": 2,
+  "rules": [
+    {
+      // same targets as SHO's own (DAK) perk entry: dead, ActorTypeAnimal
+      "id": "carcass",
+      "target": "npc",
+      "requires": {
+        "alive": false,
+        "keyword": "Skyrim.esm|0x13798"  // ActorTypeAnimal
+      },
+      "primary":   {},
+      "alternate": { "label": "$SHOMKF_PickUpCarcass", "event": "SHOMKF_PickUpCarcass" },
+      "priority": 10
+    }
+  ]
+}
