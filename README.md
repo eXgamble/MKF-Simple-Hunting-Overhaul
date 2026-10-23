@@ -10,7 +10,7 @@ key instead of Dynamic Activation Key. Dynamic Activation Key is no longer neede
 ## Requirements
 
 - Simple Hunting Overhaul
-- Modifier Key Framework **1.1.0 or newer** (the rule uses format 2: the vanilla `Search` label is kept)
+- Modifier Key Framework **1.8.0 or newer**
 - Dynamic Activation Key is **not** needed: the patch includes a copy of `Simple Hunting Overhaul.esp`
   without it (included with jayserpa's permission).
 
