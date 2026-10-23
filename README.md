@@ -44,3 +44,12 @@ reaches the framework.
 
 Tested 2026-10-12 without Dynamic Activation Key: plain activate opens the deer's loot as usual; with the
 key held, `Pick Up Carcass` / `Deer`, and activating gives a Deer Carcass.
+
+## License
+
+Two owners, two sets of terms (details in `LICENSE.md`):
+
+- `Simple Hunting Overhaul.esp` is jayserpa's work, included with jayserpa's permission for this patch only.
+  It is not under the GPL; all rights stay with jayserpa.
+- Everything else (the patch plugin, the script, the rule and translation files, `tools/ShoNoDak`) is ours,
+  GPL-3.0-or-later (`LICENSE-GPL.txt`).
